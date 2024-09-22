@@ -7,7 +7,7 @@
 
 - Washes are emulated by "Throwing away" the current deck and preshuffling a new one.
 
-- Ability to both deal, [second deal](https://en.wikipedia.org/wiki/Second_dealing), and [bottom deal] (https://en.wikipedia.org/wiki/Bottom_dealing) from the deck
+- Ability to both deal, [second deal](https://en.wikipedia.org/wiki/Second_dealing), and [bottom deal](https://en.wikipedia.org/wiki/Bottom_dealing) from the deck
 
 - Top and Bottom Peeking of Cards
 
