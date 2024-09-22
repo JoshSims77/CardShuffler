@@ -18,51 +18,55 @@
 
 ### Functions:
 
-[ ] CreateDeck()
+[ ] Create_Deck()
 
-[ ] DestroyDeck()
+[ ] Destroy_Deck()
 
 [ ] Shuffle()
 
-[ ] RiffleShuffle()
+[ ] Riffle_Shuffle()
 
-[ ] PerfectRiffleShuffle()
+[ ] Perfect_Riffle_Shuffle()
 
-[ ] ImperfectRiffleShuffle()
+[ ] Imperfect_Riffle_Shuffle()
 
-[ ] DominantImperfectRiffleShuffle()
+[ ] Dominant_Imperfect_Riffle_Shuffle()
 
-[ ] NonDominantImperfectRiffleShuffle()
+[ ] NonDominant_Imperfect_Riffle_Shuffle()
 
-[ ] PQShuffle()
+[ ] PQ_Shuffle()
 
 [ ] Cut()
 
-[ ] PerfectCut()
+[ ] Perfect_Cut()
 
-[ ] TopThirdCut()
+[ ] Top_Third_Cut()
 
-[ ] BottomThirdCut()
+[ ] Bottom_Third_Cut()
 
-[ ] PeekTop()
+[ ] Peek_Top()
 
-[ ] PeekBottom()
+[ ] Peek_Bottom()
 
 [ ] Deal()
 
-[ ] SecondDeal()
+[ ] Second_Deal()
 
-[ ] BottomDeal()
+[ ] Bottom_Deal()
 
-[ ] AddPlayer()
+[ ] Add_Player()
 
-[ ] DeletePlayer()
+[ ] Delete_Player()
 
-[ ] DiscardCard()
+[ ] Discard_Card()
 
-[ ] DiscardHand()
+[ ] Discard_Hand()
 
-[ ] AddCommunityPile()
+[ ] Add_Community_Pile()
 
-[ ] AddDiscardPile()
+[ ] Add_Discard_Pile()
+
+[ ] Delete_Community_Pile()
+
+[ ] Delete_Discard_Pile()
 
