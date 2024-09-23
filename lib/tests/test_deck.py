@@ -8,6 +8,7 @@ def print_deck():
     deck = Deck()
     deck.create_deck()
 
+    #print card names
     for card in deck.cards:
         print(card.name)
 
