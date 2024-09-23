@@ -1,5 +1,5 @@
 [
-    {"name": "Cardback", "suit": "NA", "color": "NA", "value": "NA", "image": "lib/assets/card_images/cardback.png"},
+   
 
     {"name": "2 of Hearts", "suit": "Hearts", "color": "Red", "value": 2, "image": "lib/assets/card_images/2_of_hearts.png"},
     {"name": "3 of Hearts", "suit": "Hearts", "color": "Red", "value": 3, "image": "lib/assets/card_images/3_of_hearts.png"},
