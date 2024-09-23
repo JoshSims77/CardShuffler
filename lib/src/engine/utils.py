@@ -25,6 +25,9 @@ class Shuffle:
                 # Call imperfect shuffles
                 self.Imperfect_Shuffles(first_half, second_half)
 
+        
+        self.Cut()
+
 
 
 
@@ -199,3 +202,42 @@ class Shuffle:
         # Update the deck with the shuffled cards
         self.deck.cards = shuffled_deck
     
+
+
+    #Cuts!
+    #Master Cut Function
+    def Cut(self):
+        Wheel = random.random()  # Get a random float between 0.0 and 1.0
+        print("Wheel: " + str(Wheel))
+
+        if 0 <= Wheel <= .50: #50% chance for a perfect cut
+            print("Perfect Cut!")
+            self.Perfect_Cut()
+        elif .50 < Wheel <= .75: # 25% for a top third cut
+            print("Top Third Cut!")
+            self.Top_Third_Cut
+        elif .75 < Wheel <= 1: # 25% for a bottom third cut
+            print("Bottom Third Cut!")
+            self.Bottom_Third_Cut
+
+
+    def Perfect_Cut(self):
+        half = len(self.deck.cards) // 2 # integer division splitting deck in half
+        first_half = self.deck.cards[:half]
+        second_half = self.deck.cards[half:]
+        
+        self.deck.cards = second_half + first_half
+       
+
+
+    def Top_Third_Cut(self):
+        third = len(self.deck.cards) // 3 #integer division splitting deck into 3
+        top_third = self.deck.cards[:third]
+        remaining_two_thirds = self.deck.cards[third:]
+        self.deck.cards = remaining_two_thirds + top_third
+
+    def Bottom_Third_Cut(self):
+        third = len(self.deck.cards) // 3 #integer division splitting deck into 3
+        bottom_third = self.deck.cards[-third:]
+        remaining_two_thirds = self.deck.cards[:-third]
+        self.deck.cards = bottom_third + remaining_two_thirds

@@ -36,13 +36,13 @@
 
 [ ] PQ_Shuffle()
 
-[ ] Cut()
+[x] Cut()
 
-[ ] Perfect_Cut()
+[x] Perfect_Cut()
 
-[ ] Top_Third_Cut()
+[x] Top_Third_Cut()
 
-[ ] Bottom_Third_Cut()
+[x] Bottom_Third_Cut()
 
 [ ] Peek_Top()
 
