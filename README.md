@@ -24,17 +24,15 @@
 
 [x] Delete_Deck()
 
-[ ] Shuffle()
-
-[ ] Riffle_Shuffle()
+[x] Shuffle()
 
 [x] In_Perfect_Riffle_Shuffle()
 
 [x] Out_Perfect_Riffle_Shuffle()
 
-[ ] Out_Imperfect_Riffle_Shuffle()
+[x] In_Imperfect_Riffle_Shuffle()
 
-[ ] In_Imperfect_Riffle_Shuffle()
+[x] Out_Imperfect_Riffle_Shuffle()
 
 [ ] PQ_Shuffle()
 
