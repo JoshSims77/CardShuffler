@@ -18,9 +18,11 @@
 
 ### Functions:
 
-[ ] Create_Deck()
+[x] Create_Deck()
 
-[ ] Destroy_Deck()
+[ ] Create_Double_Deck()
+
+[x] Delete_Deck()
 
 [ ] Shuffle()
 
