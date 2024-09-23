@@ -20,7 +20,7 @@
 
 [x] Create_Deck()
 
-[ ] Create_Double_Deck()
+[x] Create_Double_Deck()
 
 [x] Delete_Deck()
 
@@ -28,13 +28,13 @@
 
 [ ] Riffle_Shuffle()
 
-[ ] Perfect_Riffle_Shuffle()
+[x] In_Perfect_Riffle_Shuffle()
 
-[ ] Imperfect_Riffle_Shuffle()
+[x] Out_Perfect_Riffle_Shuffle()
 
-[ ] Dominant_Imperfect_Riffle_Shuffle()
+[ ] Out_Imperfect_Riffle_Shuffle()
 
-[ ] NonDominant_Imperfect_Riffle_Shuffle()
+[ ] In_Imperfect_Riffle_Shuffle()
 
 [ ] PQ_Shuffle()
 
