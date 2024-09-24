@@ -3,9 +3,9 @@
 
 ### Overview/Features:
 
-- It creates and shuffles both single and double decks, and emulates common dealer shuffling practices such as the [**Riffle Shuffle**](https://en.wikipedia.org/wiki/Riffle_shuffle_permutation) (Alternatively, P,Q shuffles can be enabled, a variation of the Riffle Shuffle) and different variations of [**Cuts**](https://en.wikipedia.org/wiki/Cut_(cards))
+- It creates and shuffles both single and double decks, and emulates common dealer shuffling practices such as the [**Riffle Shuffle**](https://en.wikipedia.org/wiki/Riffle_shuffle_permutation) and different variations of [**Cuts**](https://en.wikipedia.org/wiki/Cut_(cards))
 
-- Washes are emulated by "Throwing away" the current deck and preshuffling a new one.
+- Washes are emulated by performing impossible or inconvenient shuffles(Inverse Ripple Shuffle) and cuts(Scarne's Cut) that would typically be against the rules in a standard card game.
 
 - Ability to both deal, [second deal](https://en.wikipedia.org/wiki/Second_dealing), and [bottom deal](https://en.wikipedia.org/wiki/Bottom_dealing) from the deck
 
@@ -33,8 +33,6 @@
 [x] In_Imperfect_Riffle_Shuffle()
 
 [x] Out_Imperfect_Riffle_Shuffle()
-
-[ ] PQ_Shuffle()
 
 [x] Cut()
 
