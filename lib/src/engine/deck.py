@@ -32,8 +32,8 @@ class Deck:
 
         return self.cards
     
-    #Clear deck, setting list to 0
-    def delete_deck(self):
+    
+    def delete_deck(self): #clear deck, setting list to 0
         if len(self.cards) > 0:  # Use len() function to verify deck isn't already deleted
             self.cards.clear()
             print("Deck cleared. self.cards length is now 0.")
@@ -42,7 +42,17 @@ class Deck:
 
     def create_double_deck(self):
         self.create_deck()
-        self.cards.extend(self.cards) #places another identical 52 cards after the first 52.
+        self.cards.extend(self.cards) # places another identical 52 cards after the first 52.
+
+
+    # def deal(self, players=None, num_cards_per_player=0, community_pile=None):
+    #     #deal to players and cards per player, defaulting to 0
+    #     if players is not None and num_cards_per_player > 0 :
+    #         for i in range(num_cards_per_player):
+    #             for player in players:
+    #                 if len(self.cards)
+            
+
         
 
 

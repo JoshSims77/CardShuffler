@@ -15,3 +15,6 @@ class NoDeckPresent(Exception):
     # Most likely, this is thrown when two Delete_Deck(self) 's are thrown in a row without a deck creation between them. 
     # Note that Delte_Deck() clears the whole list, if switching from a double deck to a single is desired, run Delete_Deck() and then Create_Deck()
     pass
+
+class DeckDealtOut(Exception):
+    """Raised when too many cards are dealt out and the deck / draw pile is empty"""
